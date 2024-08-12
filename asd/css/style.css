@@ -1,0 +1,14 @@
+.clasePrueba{
+    color: rgb(250, 0, 0);
+    background-color: aqua;
+    text-decoration: none;
+}
+clasePrueba{
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+    text-decoration: none;
+}
+
+.letra{
+    font-family: system-ui, sans-serif;
+}
