@@ -60,14 +60,27 @@ li{
 
 
 .formularioepico{
-
-    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    padding: 2px;
 }
 input[type="text"],
 input[type="email"],
 button {
     width: 40%;
     padding: 2px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #013fdb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .piedepagina{
