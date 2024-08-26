@@ -1,3 +1,9 @@
+:root{
+    --primary-color: #501010;
+    --dark-mode: #222;
+    --ligth-mode: rgb(162, 160, 158);
+}
+
 *{
     margin: 0;
     text-decoration: none;

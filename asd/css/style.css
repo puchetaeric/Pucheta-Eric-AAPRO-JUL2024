@@ -1,3 +1,8 @@
+/* var(--primary-color) */
+
+
+
+
 *{
     background-color: #e0e0e0;
 }
@@ -17,7 +22,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-.navindex a {
+.card {
     text-decoration: none;
     color: #3498db;
     padding: 10px 20px;
@@ -26,8 +31,36 @@ h1 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.navindex a:hover {
+.card:hover {
     background-color: #3498db;
     color: white;
 }
+
+
 /*si, ya me lei la clase 7*/
+
+
+
+
+
+@media(max-width: 760px)
+/* compensacion de que no pueden ver el magnifico hover los de celular */
+{
+    .navindex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .navindex a{
+        box-shadow: 0 0 20px #3498db56;
+        margin-bottom: 1.9%;
+    }
+    h1 {
+        font-size: 1.7em;
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 45px;
+        letter-spacing: 4px;
+        background: radial-gradient(circle, #3498db96, #3498db3b, #3498db00, #ffffff00);
+        /* quedo lindo :') */
+    }
+}
