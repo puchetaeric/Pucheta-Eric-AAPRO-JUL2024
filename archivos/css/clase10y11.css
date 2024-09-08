@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #501010;
+    --primary-color: rgb(255, 0, 0);
     --dark-mode: #222;
     --ligth-mode: #e0e0e0;
 }
@@ -14,4 +14,23 @@
     background-color: var(--ligth-mode);
     color: inherit;
     list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+.card{
+color: var;
+padding: 10px 20px;
+border: 2px solid var(--primary-color);
+border-radius: 5px;
+transition: background-color 0.3s, color 0.3s;
+}
+.card:hover {
+    background-color: var(--primary-color);
+    color: white;
 }
