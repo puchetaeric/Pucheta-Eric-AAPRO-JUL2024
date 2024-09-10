@@ -178,22 +178,50 @@ footer, footer a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 20px #ffc9c94f;
-    padding: 1.5rem;
+    box-shadow: 0 0 20px var(--primary-color);
     border-radius: 8px;
     margin: 20px auto;
     max-width: 600px;
 }
 
 .contact-form{
-    background: var(--dark-mode);
+    background: var(--primary-color);
     border-radius: 8px;
     padding: 20px;
     width: 100%;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
 }
 
 .contact-form form{
+    background: inherit;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+input{
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 5px 5px 20px var(--dark-mode);
+}
+
+
+.button input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--dark-mode);
+    color: var(--ligth-mode);
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--dark-mode);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.button input[type="submit"]:hover {
+    background-color: var(--letter-color);
+    box-shadow: 0 0 10px var(--primary-color);
 }
